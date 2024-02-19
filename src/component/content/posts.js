@@ -7,7 +7,7 @@ export default function Posts() {
 
   return (
     <>
-      <div className="flex flex-col gap-2 h-fit mt-4 bg-white w-96 ">
+      <div className="flex flex-col gap-2 h-fit mt-4 bg-white w-96 m-4">
         <Postheader />
         <div
           className="bg-white h-fit "

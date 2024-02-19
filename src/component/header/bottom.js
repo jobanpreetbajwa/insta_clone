@@ -8,9 +8,9 @@ export default function Bottom() {
     setActivestories(users);
   }, []);
   return (
-    <div className="flex gap-2 p-2">
+    <div className="flex gap-2 pt-4 md:pt-8  justify-center overflow-scroll">
       {activeStories.map((item, i) => {
-        return <Stories kry={i} item={item} />;
+        return <Stories key={i} item={item} />;
       })}
     </div>
   );
